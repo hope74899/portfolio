@@ -1,0 +1,22 @@
+@import "tailwindcss";
+
+
+/* Add this to the bottom of your src/index.css file */
+
+/* 1. Define the keyframes for the floating animation */
+@keyframes levitate {
+
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+
+  50% {
+    transform: translateY(-20px);
+  }
+}
+
+/* 2. Create a utility class that uses the animation */
+.animate-levitate {
+  animation: levitate 6s ease-in-out infinite;
+}
