@@ -11,7 +11,7 @@ const Hero = ({ refs, scrollToSection }) => {
                 background: `radial-gradient(circle at 85% 50%, rgba(94, 234, 212, 0.08) 0%, #1e293b 40%)`,
             }}
         >
-            <div className="mt-20 container mx-auto px-6 z-10">
+            <div className=" sm:mt-20 container mx-auto px-6 z-10">
                 <div className=" grid grid-cols-1 md:grid-cols-2 gap-10 items-center">
                     <div className="flex flex-col gap-y-2 text-center md:text-left">
                         {/* Subtitles & Helper Text: text-gray-400 - CORRECT */}
