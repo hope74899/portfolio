@@ -11,7 +11,7 @@ const skillsList = [
 const About = () => {
     return (
         // Main Background: bg-slate-800
-        <section className="bg-slate-800 py-10 md:py-20">
+        <section className="bg-slate-800 py-4 md:py-20">
             <div className="container mx-auto px-6">
 
                 {/* Main Heading styled consistently with other sections */}

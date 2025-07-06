@@ -54,7 +54,7 @@ const ServiceCard = ({ icon, title, description }) => (
 const Services = () => {
     return (
         // The section background uses your main 'slate-800' color
-        <section className="bg-slate-800 py-10 md:py-20">
+        <section className="bg-slate-800 py-4 md:py-20">
             <div className="container mx-auto px-6">
                 <div className="text-center mb-16">
                     <h2 className="text-4xl md:text-5xl font-extrabold text-white">

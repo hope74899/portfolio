@@ -49,13 +49,13 @@ const Contact = () => {
     return (
         // Main Background: bg-slate-800 with the signature glow
         <section
-            className="bg-slate-800 py-20 md:py-28"
+            className="bg-slate-800 py-10 md:py-24"
             style={{ background: `radial-gradient(circle at 15% 50%, rgba(94, 234, 212, 0.08) 0%, #1e293b 30%)` }}
         >
             <div className="container mx-auto px-6">
                 <div className="flex justify-center mb-16">
                     <div className="bg-slate-900 rounded-full px-6 py-2">
-                        <h2 className="text-2xl font-bold text-white">Contact</h2>
+                        <h2 className="text-2xl font-bold text-white">Contact Me</h2>
                     </div>
                 </div>
 

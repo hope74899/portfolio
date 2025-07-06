@@ -6,13 +6,13 @@ const Hero = ({ refs, scrollToSection }) => {
     return (
         // Main Background: bg-slate-800 - CORRECT
         <section
-            className="relative min-h-screen flex items-center overflow-hidden bg-slate-800"
+            className="relative pt-20 sm:pt-0  sm:min-h-screen flex items-center overflow-hidden bg-slate-800"
             style={{
                 background: `radial-gradient(circle at 85% 50%, rgba(94, 234, 212, 0.08) 0%, #1e293b 40%)`,
             }}
         >
-            <div className="container mx-auto px-6 z-10">
-                <div className="grid grid-cols-1 md:grid-cols-2 gap-10 items-center">
+            <div className="mt-20 container mx-auto px-6 z-10">
+                <div className=" grid grid-cols-1 md:grid-cols-2 gap-10 items-center">
                     <div className="flex flex-col gap-y-2 text-center md:text-left">
                         {/* Subtitles & Helper Text: text-gray-400 - CORRECT */}
                         <p className="font-bold text-sm uppercase tracking-widest text-gray-400 flex items-center justify-center md:justify-start gap-2">
@@ -63,12 +63,11 @@ const Hero = ({ refs, scrollToSection }) => {
                         </div>
                     </div>
 
-                    {/* Right Image Content */}
-                    <div className="hidden md:flex justify-center">
+                    <div className="hidden md:flex  justify-center">
                         <img
                             src="/profile2.png"
                             alt="Rashid, Web Developer"
-                            className="max-w-md w-full animate-levitate"
+                            className="max-w-md w-full  animate-levitate"
                         />
                     </div>
                 </div>
