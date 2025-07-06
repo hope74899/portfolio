@@ -80,7 +80,7 @@ const Hero = ({ refs, scrollToSection }) => {
                 className="absolute bottom-10 left-1/2 -translate-x-1/2 z-20"
             >
                 {/* THE ONLY CORRECTION IS IN THE LINE BELOW */}
-                <div className="w-12 h-12 bg-slate-900 border-2 border-gray-700 rounded-full flex items-center justify-center text-gray-400 hover:border-teal-300 hover:text-teal-300 transition-all duration-300">
+                <div className="w-12 h-12 bg-slate-900 border-2 border-gray-700 rounded-full hidden md:flex items-center justify-center text-gray-400 hover:border-teal-300 hover:text-teal-300 transition-all duration-300">
                     <FaArrowDown />
                 </div>
             </button>
